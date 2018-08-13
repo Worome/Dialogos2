@@ -35,7 +35,7 @@ public class cuadroDialogo extends DialogFragment {
         TextView mensaje = view.findViewById(R.id.textView2);
         Button boton = view.findViewById(R.id.button2);
         getDialog().setTitle("Nuevo título");
-        mensaje.setText("Nuevo mensaje");
+        mensaje.setText("Este es un Nuevo mensaje de aviso para probar que \n el cuadro de diálogo funciona perfectamente");
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
